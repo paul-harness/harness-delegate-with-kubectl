@@ -1,0 +1,2 @@
+FROM harness/delegate:latest
+RUN ./kubectl mv kubectl /opt/harness-delegate/custom-client-tools/kubectl
